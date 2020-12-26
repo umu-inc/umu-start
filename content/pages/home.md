@@ -5,9 +5,12 @@ title: Yellowcake
 featuredImage: https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/
 subtitle: " Welcome to the ultimate Gatsby and Netlify starter project."
 news: " News"
-newstext: " News"
+newstext: 2020年12月10日　株式会社Umu設立！
 concept: Concept
-concepttext: Concept
+concepttext: |-
+  **エンジニアのこれくらいわかるだろうは通用しない！**
+
+  私たちは目線を普通の生活者と合わせ、誰にでも分かりやすいデザインを作ることを心掛けています。
 desgin: Desgin
 desgintext: Desgin
 ceo: Ceo
