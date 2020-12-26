@@ -14,7 +14,7 @@ ceo: 'Ceo'
 ceotext: 'Ceo'
 future: 'Future'
 futuretext: 'Future'
-profileimage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
+profileimage: 'https://ucarecdn.com/88696c87-38d0-4eb1-bee6-d0126ee0ca86/'
 
 meta:
   description: This is a meta description.

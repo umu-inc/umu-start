@@ -12,5 +12,7 @@
 }
 .box22 p {
   margin: 0; 
-  padding: 0;
+  margin-left: 1em;
+  display:inline-block;
+  vertical-align:top; 
 }
