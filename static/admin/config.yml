@@ -209,6 +209,16 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown, required: false }
           - { label: News, name: news, widget: markdown, required: false }
+          - { label: NewsText, name: newstext, widget: markdown, required: false }
+          - { label: Concept, name: concept, widget: markdown, required: false }
+          - { label: ConceptText, name: concepttext, widget: markdown, required: false }
+          - { label: Desgin, name: desgin, widget: markdown, required: false }
+          - { label: DesginText, name: desgintext, widget: markdown, required: false }
+          - { label: Ceo, name: ceo, widget: markdown, required: false }
+          - { label: CeoText, name: ceotext, widget: markdown, required: false }
+          - { label: Future, name: future, widget: markdown, required: false }
+          - { label: FutureText, name: futuretext, widget: markdown, required: false }
+          - { label: ProfileImage, name: profileimage, widget: image }
           - { label: Body, name: body, widget: markdown }
           - label: 'Accordion'
             name: 'accordion'

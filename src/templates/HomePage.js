@@ -9,7 +9,7 @@ import './HomePage.css'
 
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, news, featuredImage, body }) => (
+export const HomePageTemplate = ({ title, subtitle, news, newstext, featuredImage, ceo, ceotext, concept, concepttext, desgin, desgintext, future, futuretext, profileimage, body }) => (
   <main className="Home">
     <PageHeader
       large
@@ -17,12 +17,18 @@ export const HomePageTemplate = ({ title, subtitle, news, featuredImage, body })
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-
     <section className="section">
-      <h1 className="Home--text">
-        {news}
-      </h1>
       <div className="container">
+        <h1 className="Home--text">{news}</h1>
+        <div className="box22"><p className="Home--text">{newstext}</p></div>
+        <h1 className="Home--text">{concept}</h1>
+        <div className="box22"><p className="Home--text">{concepttext}</p></div>
+        <h1 className="Home--text">{desgin}</h1>
+        <div className="box22"><p className="Home--text">{desgintext}</p></div>
+        <h1 className="Home--text">{ceo}</h1>
+        <div className="box22"><img src={profileimage} width="30%"></img><p className="Home--text">{ceotext}</p></div>
+        <h1 className="Home--text">{future}</h1>
+        <div className="box22"><p className="Home--text">{futuretext}</p></div>
         <Content source={body} />
       </div>
     </section>
@@ -51,6 +57,16 @@ export const pageQuery = graphql`
         title
         subtitle
         news
+        newstext
+        concept
+        concepttext
+        desgin
+        desgintext
+        ceo
+        ceotext
+        future
+        futuretext
+        profileimage
         featuredImage
       }
     }
