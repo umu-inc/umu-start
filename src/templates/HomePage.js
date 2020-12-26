@@ -14,7 +14,7 @@ export const HomePageTemplate = ({ title, subtitle, featuredImage, body }) => (
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-
+<p>かかか</p>
     <section className="section">
       <div className="container">
         <Content source={body} />
