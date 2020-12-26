@@ -12,7 +12,7 @@ desgin: Desgin
 desgintext: Desgin
 ceo: Ceo
 ceotext: |-
-  ## Ceo 村上 奈々
+  Ceo 村上 奈々
 
   * OL
 
