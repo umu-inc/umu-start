@@ -5,6 +5,9 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 
+import './HomePage.css'
+
+
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subtitle, news, featuredImage, body }) => (
   <main className="Home">
@@ -14,7 +17,9 @@ export const HomePageTemplate = ({ title, subtitle, news, featuredImage, body })
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-    <p>{news}</p>
+    <h1 className="Home--text">
+      {news}
+    </h1>
     <section className="section">
       <div className="container">
         <Content source={body} />
