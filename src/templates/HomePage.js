@@ -14,7 +14,7 @@ export const HomePageTemplate = ({ title, subtitle, news, featuredImage, body })
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-<p>{news}</p>
+    <p>{news}</p>
     <section className="section">
       <div className="container">
         <Content source={body} />
