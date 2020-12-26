@@ -26,7 +26,7 @@ export const HomePageTemplate = ({ title, subtitle, news, newstext, featuredImag
         <h1 className="Home--text">{desgin}</h1>
         <div className="box22"><p className="Home--text">{desgintext}</p></div>
         <h1 className="Home--text">{ceo}</h1>
-        <div className="box22"><img src={profileimage} width="30%"></img><p className="Home--text">{ceotext}</p></div>
+        <div className="box22"><img src={profileimage} ></img><p className="Home--text">{ceotext}</p></div>
         <h1 className="Home--text">{future}</h1>
         <div className="box22"><p className="Home--text">{futuretext}</p></div>
         <Content source={body} />

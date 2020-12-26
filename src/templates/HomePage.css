@@ -13,6 +13,14 @@
 .box22 p {
   margin: 0; 
   margin-left: 1em;
-  display:inline-block;
-  vertical-align:top; 
+}
+
+img {
+  width:100%;
+  max-width: 350px;
+  height: auto;
+  background-size: cover;
+  float: left;
+  margin-right: 1em; 
+  margin-bottom: 1em; 
 }
