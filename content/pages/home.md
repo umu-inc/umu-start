@@ -12,7 +12,7 @@ concepttext: |-
 
   私たちは目線を普通の生活者と合わせ、誰にでも分かりやすいデザインを作ることを心掛けています。
 desgin: Desgin
-desgintext: Desgin
+desginimage: https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/
 ceo: Ceo
 ceotext: |-
   ## Ceo 村上 奈々

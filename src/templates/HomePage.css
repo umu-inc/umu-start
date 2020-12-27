@@ -1,11 +1,14 @@
+.onesection{
+  margin-bottom: 8rem;
+}
+
 .Home--text {
-  margin: 0 0 5em;
-  margin-bottom: 2.5rem;
+  margin-bottom: 0rem;
 }
 
 .box22{
   padding: 0.5em 1em;
-  margin: 1em 0;
+  margin: 1.5em 0;
   background: #f4f4f4;
   border-left: solid 6px #5bb7ae;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33);
@@ -23,4 +26,5 @@ img {
   float: left;
   margin-right: 1em; 
   margin-bottom: 1em; 
+  box-shadow: 0 15px 10px rgba(0,0,0, .5);
 }

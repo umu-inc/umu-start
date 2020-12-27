@@ -213,7 +213,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Concept, name: concept, widget: markdown, required: false }
           - { label: ConceptText, name: concepttext, widget: markdown, required: false }
           - { label: Desgin, name: desgin, widget: markdown, required: false }
-          - { label: DesginText, name: desgintext, widget: markdown, required: false }
+          - { label: Desginimage, name: desginimage, widget: image }
           - { label: Ceo, name: ceo, widget: markdown, required: false }
           - { label: CeoText, name: ceotext, widget: markdown, required: false }
           - { label: Future, name: future, widget: markdown, required: false }

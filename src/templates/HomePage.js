@@ -7,9 +7,10 @@ import Layout from '../components/Layout'
 
 import './HomePage.css'
 
+const numbers = ['test4', 'test3', 'test2', '2020年12月10日test1設立'];
 
 // Export Template for use in CMS preview
-export const HomePageTemplate = ({ title, subtitle, news, newstext, featuredImage, ceo, ceotext, concept, concepttext, desgin, desgintext, future, futuretext, profileimage, body }) => (
+export const HomePageTemplate = ({ title, subtitle, news, newstext, featuredImage, ceo, ceotext, concept, concepttext, desgin, desginimage, future, futuretext, profileimage, body }) => (
   <main className="Home">
     <PageHeader
       large
@@ -17,19 +18,39 @@ export const HomePageTemplate = ({ title, subtitle, news, newstext, featuredImag
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
+
     <section className="section">
       <div className="container">
-        <h1 className="Home--text">{news}</h1>
-        <div className="box22"><p className="Home--text">{newstext}</p></div>
-        <h1 className="Home--text">{concept}</h1>
-        <div className="box22"><p className="Home--text">{concepttext}</p></div>
-        <h1 className="Home--text">{desgin}</h1>
-        <div className="box22"><p className="Home--text">{desgintext}</p></div>
-        <h1 className="Home--text">{ceo}</h1>
-        <div className="box22"><img src={profileimage} ></img><p className="Home--text">{ceotext}</p></div>
-        <h1 className="Home--text">{future}</h1>
-        <div className="box22"><p className="Home--text">{futuretext}</p></div>
-        <Content source={body} />
+        <div className="onesection">
+          <h1 className="Home--text">{news}</h1>
+            {/* cmsでフォルダにmdを作成していく
+                新しいmdから取得
+                QLでmd取得
+                最大三件まで表示されるようにする　ok
+            */}
+          {numbers.slice(-3).reverse().map((num) => (<div className="box22"><p className="Home--text">{num}</p></div>))}
+        </div>
+        <div className="onesection">
+          <h1 className="Home--text">{concept}</h1>
+          <div className="box22"><p className="Home--text">{concepttext}</p></div>
+        </div>
+        <div className="onesection">
+          <h1 className="Home--text">{desgin}</h1>
+          {/* デザイン
+              最新３件表示されるようにする
+              残りはブログの所
+          */}
+          {numbers.slice(-3).reverse().map((num) => (<div><p>デザイン</p><img src={desginimage} ></img></div>))}
+        </div>
+        <div className="onesection">
+          <h1 className="Home--text">{ceo}</h1>
+          <div className="box22"><img src={profileimage} ></img><p className="Home--text">{ceotext}</p></div>
+        </div>
+          <div className="onesection">
+          <h1 className="Home--text">{future}</h1>
+          <div className="box22"><p className="Home--text">{futuretext}</p></div>
+          {/* <Content source={body} /> */}
+        </div>
       </div>
     </section>
   </main>
@@ -61,7 +82,7 @@ export const pageQuery = graphql`
         concept
         concepttext
         desgin
-        desgintext
+        desginimage
         ceo
         ceotext
         future
