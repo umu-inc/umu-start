@@ -1,14 +1,14 @@
 ---
 template: HomePage
 slug: ""
-title: Yellowcake
+title: Inc.Umu
 featuredImage: https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/
-subtitle: " Welcome to the ultimate Gatsby and Netlify starter project."
+subtitle: あなたが思わずうなづいてしまうシステムを生み出す会社
 news: " News"
 newstext: 2020年12月10日　株式会社Umu設立！
 concept: Concept
 concepttext: |-
-  **エンジニアのこれくらいわかるだろうは通用しない！**
+  エンジニアのこれくらいわかるだろうは通用しない！
 
   私たちは目線を普通の生活者と合わせ、誰にでも分かりやすいデザインを作ることを心掛けています。
 desgin: Desgin
@@ -64,7 +64,14 @@ ceotext: |-
       * JAVAできないなら意味ないと営業から現場変更を提案され、半年で退場
     * 現場２
 future: Future
-futuretext: Future
+futuretext: |-
+  最近何か一生懸命に誰かのために何かをしたいと思ったことはありますか？
+  きっとみんな心のどこかで誰かの役に立ちたい認められたいという思いはあると思います。
+  ですが、現代の日本ではそんな場面には中々直面しません。
+  日本がここまで経済を発展することはできたのは紛れもなく人の熱い想いです。
+  その人が結果を残すためにした努力の数々の根本にはそんな情熱があったはずです。
+  Umuはそんな日本の心を呼び覚まし、共に新しい時代を切り開いていきたい、、、
+  そんな願いを持った会社です。
 profileimage: https://ucarecdn.com/88696c87-38d0-4eb1-bee6-d0126ee0ca86/
 meta:
   description: This is a meta description.
